@@ -1,79 +1,51 @@
-# Framer Library for React
-
-We are in the process of open sourcing our new [Framer Library for React](https://framer.com/api). Come back soon.
+> **⚠️ ARHIVAT — Acest repository conține versiunea veche Framer Library (bazată pe CoffeeScript/JavaScript). Aceasta nu mai este întreținută activ. Framer-ul modern este un tool vizual de design disponibil la [framer.com](https://framer.com).**
 
 ---
 
-# Framer Library
+# Framer Library (Legacy)
 
-Framer Library is an open source JavaScript framework for high fidelity prototyping. Use it to design animations and interactions without any limitations. Make use of real spring physics or animate with 3D effects, anything is possible.
-<br /><br />
+Framer Library a fost un framework JavaScript open source pentru prototipare de înaltă fidelitate. Permitea designul animațiilor și interacțiunilor fără limitări, folosind fizică reală a resorturilor și efecte 3D.
 
-![Example](https://raw.githubusercontent.com/krijnrijshouwer/FramerWiki/master/example.gif)
-<br /><br />
+> **Notă:** Această versiune folosește CoffeeScript și este considerată **depășită**. Pentru proiecte noi, folosește [Framer](https://framer.com) — tool-ul vizual modern de design web.
 
-There are 2 ways to use Framer Library. To get most out of Library download Framer; a design tool for the Mac. The other way you can leverage Framer Library is with generator; an app that imports your layers from Sketch, Photoshop and Figma. The following features are included with each option.
-<br /><br />
+## Framer (versiunea actuală)
 
-![Table](https://raw.githubusercontent.com/krijnrijshouwer/FramerWiki/master/comparison-table@2x.png)
-<br /><br />
+Framer este acum un tool vizual de design web care permite crearea de site-uri și prototipuri interactive fără cod. Oferă:
 
-## Framer
+- Design vizual direct în browser
+- Componente interactive și animații avansate
+- Publicare rapidă a site-urilor
+- Integrare cu Figma (import de design-uri)
 
-Framer is a design tool for the Mac which allows you to design without limitations. It is based on Framer Library and offers the familiarity of visual editing with the flexibility of code. A seamless workflow, further complemented by device previewing, version control and easy sharing.
+[Descoperă Framer](https://framer.com)
 
-[Find out more](http://framer.com/?utm_source=GitHub%2C%20framerjs%2C%20readme&utm_medium=Github)
-<br /><br />
+---
 
-![Framer for Mac](https://cloud.githubusercontent.com/assets/22095598/26638904/a7ddf000-4623-11e7-8ad3-a0fb8f194e89.png)
-<br /><br />
+## Framer Library (Legacy) — Informații tehnice
 
-## Set up Framer Library
+### Instalare
 
-- [Download](https://builds.framerjs.com/version/latest/Framer.zip?utm_source=GitHub%2C%20framerjs%2C%20readme&utm_medium=Github) (Framer.js & Framer Generator)
-- Open **index.html** in a WebKit browser and you'll see an image animate on click
-- Edit the **app.js** to add interactions and animations (see example code below)
+- Clonează sau descarcă acest repository
+- Asigură-te că ai instalate **Node.js** și **npm**
+- Rulează `make dist` pentru a construi versiunea
 
-![Project Folder](https://raw.githubusercontent.com/krijnrijshouwer/FramerWiki/master/project.png)
-<br /><br />
+### Testare
 
-## Get Started
- 
-<img src="https://raw.githubusercontent.com/krijnrijshouwer/FramerWiki/master/icon-guide@2x.png" width="49px">
+- Rulează `make test` pentru a rula testele unitare
+- Rulează `make` pentru a retesta la fiecare modificare
 
-[Learn with our beginner guides](https://framer.com/getstarted/guide/?utm_source=GitHub%2C%20framerjs%2C%20readme&utm_medium=Github) that give you a basic overview of Framer Library and a few simple pointers on how to set yourself up for success.
-<br /><br />
+> **Notă:** Testele folosesc PhantomJS care este un proiect abandonat. Se recomandă migrarea la un test runner modern (Jest, Vitest etc.) dacă intenționezi să continui dezvoltarea.
 
-<img src="https://raw.githubusercontent.com/krijnrijshouwer/FramerWiki/master/icon-community@2x.png" width="64px">
+### Raportarea problemelor
 
-[Become part of the community](https://framer.com/community/groups/?utm_source=GitHub%2C%20framerjs%2C%20readme&utm_medium=Github) and join the Facebook Group or engage with members in your city. Over 19.000 designers, engineers and creators are waiting to meet you.
+- Folosește issue tracker-ul din GitHub
+- Include un exemplu și descrie clar comportamentul așteptat
 
-<br /><br />
+---
 
-## Contribute
+## Resurse și comunitate
 
-###### Building
-
-- Download or fork the repository
-- Make sure you have the latest version of node and npm installed
-- Run `make dist` to build the latest version
-- Run `make` to rebuild the latest version on changes
-
-###### Testing
-
-- Run `make test` to run the unit tests in phantomjs
-- Run `make` to retest the latest version on changes
-
-###### Reporting Issues
-
-- Please use the issue tracker
-- Try to include an example and clearly describe expected behaviour
-<br /><br />
-
-## Others
-
-- [Twitter](http://twitter.com/framer) — Follow us for updates & the latest work
-- [The Community](https://www.facebook.com/groups/framerjs/) — Join over 20.000 designers for help and advice
-- [The Newsletter](https://framer.com/newsletter/?utm_source=GitHub%2C%20framerjs%2C%20readme&utm_medium=Github) — Get the best work & latest news in your inbox
-- [Featured Examples](https://framer.com/examples/featured/?utm_source=GitHub%2C%20framerjs%2C%20readme&utm_medium=Github) — The best Framer work from the community
-- [Latest builds](http://builds.framerjs.com/?utm_source=GitHub%2C%20framerjs%2C%20readme&utm_medium=Github) — The latest builds of Framer.js
+- [Framer (modern)](https://framer.com) — Tool-ul vizual actual de design
+- [Documentație Framer](https://www.framer.com/developers/) — Ghiduri și referințe API
+- [Comunitate Framer](https://www.framer.com/community/) — Forum oficial și suport
+- [Twitter / X](https://twitter.com/framer) — Urmărește pentru noutăți
